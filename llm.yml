@@ -1,0 +1,27 @@
+name: llm
+channels:
+  - apple
+  - conda-forge
+dependencies:
+    - python=3.11
+    - pip>=19.0
+    - notebook=6.4
+    - jupyter_contrib_nbextensions
+    - numpy
+    - scipy
+    - pandas
+    - pandas-datareader
+    - pillow
+    - tqdm
+    - nb_black
+    - requests
+    - h5py
+    - pyyaml
+    - flask
+    - boto3
+    - ipykernel
+    - ipympl
+    - pydotplus
+    - jaxlib
+    - jax
+    - sympy
