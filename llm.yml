@@ -3,7 +3,7 @@ channels:
   - apple
   - conda-forge
 dependencies:
-    - python=3.11
+    - python=3.10.12
     - pip>=19.0
     - notebook=6.4
     - jupyter_contrib_nbextensions
@@ -25,3 +25,7 @@ dependencies:
     - jaxlib
     - jax
     - sympy
+    - pytorch
+    - fire
+    - fairscale
+    - sentencepiece
